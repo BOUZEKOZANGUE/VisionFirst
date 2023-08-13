@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Link of CSS files -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/fancybox.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/dark-theme.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <title>VisionFirst</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+
+    <body>
+
+        <!--Preloader starts-->
+        <div class="loader js-preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!--Preloader ends-->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode">
+            <label id="switch" class="switch">
+                    <input type="checkbox" onchange="toggleTheme()" id="slider">
+                    <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Page Wrapper End -->
+        <div class="page-wrapper">
+        
+            <!-- Header Section Start -->
+            <header class="header-wrap style1">
+                <div class="header-top">
+                    <button type="button" class="close-sidebar">
+                        <i class="ri-close-fill"></i>
+                    </button>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8 col-md-12">
+                                <div class="header-top-left">
+                                   <ul class="contact-info list-style">
+                                       <li><i class="flaticon-call"></i> <a href="tel:0237692893144">(+237) 6992 93 144</a></li>
+                                       <li><i class="flaticon-email-1"></i> <a href="mailto:bouzekoadrienzangue@gmail.com">bouzekoadrienzangue@gmail.com</a></li>
+                                       <li><i class="flaticon-pin"></i><p>St. Here Mandalay, New York, U.K</p></li>
+                                   </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="header-top-right">
+                                    <ul class="header-top-menu list-style">
+                                        <li><a href="contact.html">Support</a></li>
+                                        <li><a href="contact.html">Aide</a></li>
+                                    </ul>
+                                    <div class="select-lang">
+                                        <i class="ri-global-line"></i>
+                                        <div class="navbar-option-item navbar-language dropdown language-option">
+                                            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                <span class="lang-name"></span>
+                                            </button>
+                                            <div class="dropdown-menu language-dropdown-menu">
+                                                <a class="dropdown-item" href="#">
+                                                    <img src="assets/img/uk.png" alt="flag">
+                                                    English
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img class="logo-light" src="assets/img/logo.png" alt="logo">
+                                <img class="logo-dark" src="assets/img/logo-white.png" alt="logo">
+                            </a>
+                            <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
+                                <div class="menu-close xl-none">
+                                    <a href="javascript:void(0)"> <i class="ri-close-line"></i></a>
+                                </div>
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item ">
+                                        <a href="index.html" class="nav-link active">
+                                            Acceuil
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="service-category.html" class="nav-link">
+                                            Prestations
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="equipement.html" class="nav-link">
+                                            Equipements
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="team.html" class="nav-link">
+                                            Equipes
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="faq.html" class="nav-link">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">Contact</a>
+                                    </li>
+                                    <li class="nav-item xl-none">
+                                        <a href="contact.html" class="btn style1">Écrivez-nous</a>
+                                    </li>
+                                </ul>
+                                <div class="others-options  lg-none">
+                                    <div class="searchbox">
+                                        <input type="search" placeholder="Search">
+                                        <button type="button">
+                                            <i class="flaticon-search"></i>
+                                        </button>
+                                    </div>
+                                    <div class="header-btn lg-none">
+                                        <a href="contact.html" class="btn style1">Écrivez-nous</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="mobile-bar-wrap">
+                            <div class="mobile-sidebar">
+                                <i class="ri-menu-4-line"></i>
+                            </div>
+                            <button class="searchbtn xl-none" type="button">
+                                <i class="flaticon-search"></i>
+                            </button>
+                            <div class="mobile-menu xl-none">
+                                <a href="javascript:void(0)"><i class="ri-menu-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-area">
+                        <div class="container">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="search" placeholder="Search Here" autofocus>
+                                </div>
+                            </form>
+                            <button type="button" class="close-searchbox">
+                                <i class="ri-close-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>  
+            <!-- Header Section End -->
+
+            <!-- Hero Section Start -->
+            <section class="hero-wrap style3 bg-squeeze">
+                <img src="assets/img/hero/hero-shape-10.png" alt="Image" class="hero-shape-one">
+                <img src="assets/img/hero/hero-shape-15.png" alt="Image" class="hero-shape-two">
+                <img src="assets/img/hero/hero-shape-14.png" alt="Image" class="hero-shape-three">
+                <img src="assets/img/hero/hero-shape-11.png" alt="Image" class="hero-shape-four animationFramesTwo">
+                <div class="hero-slider-one owl-carousel">
+                    <div class="hero-slide-item">
+                        <div class="container">
+                            <div class="row gx-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="hero-content" data-speed="0.10" data-revert="true">
+                                        <span>Votre vision, notre priorité</span>
+                                            <h1>Des solutions sur-mesure pour vos yeux</h1>
+                                            <p>Cabinet d'optométrie nouvelle génération équipé des dernières technologies. Notre équipe de spécialistes réalise des examens de vue complets et vous propose des verres et lentilles parfaitement adaptés à vos besoins visuels.</p>
+                                            <p>Prise de rendez-vous en ligne. Consultations personnalisées. Suivi régulier. Nous mettons notre expertise au service de votre santé oculaire.</p>
+                                             <div class="hero-btn">
+                                            <a href="service-category.html" class="btn style1">Venez nous rencontrer</a>
+                                            <a class="play-video" data-fancybox href="https://www.youtube.com/watch?v=DGo-OhDWIKQ">
+                                                <span class="play-btn"> <i class="flaticon-play-button-arrowhead"></i></span>
+                                                <span class="sm-none">Watch Video</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-img-wrap">
+                                        <img src="assets/img/hero/hero-shape-13.png" alt="Image" class="hero-shape-five bounce">
+                                        <img src="assets/img/hero/hero-shape-12.png" alt="Image" class="hero-shape-six moveHorizontal">
+                                        <img src="assets/img/hero/hero-slide-1.png" alt="Image" class="hero-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slide-item">
+                        <div class="container">
+                            <div class="row gx-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="hero-content" data-speed="0.10" data-revert="true">
+                                        <span>Votre vision mérite le meilleur</span>
+                                        <h1>Des examens de vue sur-mesure</h1> <p>Notre cabinet vous propose des consultations d'optométrie complètes et personnalisées. Nos optométristes expérimentés analysent votre vision en détail pour dépister les troubles visuels et vous conseiller les corrections optimales.</p> <p>Avec notre matériel de pointe, nous réalisons des examens approfondis pour assurer le meilleur suivi de votre santé visuelle. Prenez rendez-vous dès maintenant pour une consultation experte.</p>
+                                        <div class="hero-btn">
+                                            <a href="service-category.html" class="btn style1">Venez nous rencontrer</a>
+                                            <a class="play-video" data-fancybox href="https://www.youtube.com/watch?v=DGo-OhDWIKQ">
+                                                <span class="play-btn"> <i class="flaticon-play-button-arrowhead"></i></span>
+                                                <span class="sm-none">Watch Video</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-img-wrap">
+                                        <img src="assets/img/hero/hero-shape-13.png" alt="Image" class="hero-shape-five bounce">
+                                        <img src="assets/img/hero/hero-shape-12.png" alt="Image" class="hero-shape-six moveHorizontal">
+                                        <img src="assets/img/hero/hero-slide-2.png" alt="Image" class="hero-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slide-item">
+                        <div class="container">
+                            <div class="row gx-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="hero-content" data-speed="0.10" data-revert="true">
+                                        <span>Votre vision mérite le meilleur</span>
+                                            <h1>Des examens sur-mesure par des optométristes experts</h1> <p>Équipe expérimentée, matériel de pointe et approche sur-mesure pour un suivi optimal de votre santé visuelle. Nous prenons le temps d'analyser votre vision et de vous proposer les solutions les plus adaptées pour corriger vos troubles visuels.</p> <p>Prenez RDV en ligne pour un examen approfondi par nos optométristes qualifiés.</p>
+                                            <div class="hero-btn">
+                                                <a href="service-category.html" class="btn style1">Venez nous rencontrer</a>
+                                            <a class="play-video" data-fancybox href="https://www.youtube.com/watch?v=DGo-OhDWIKQ">
+                                                <span class="play-btn"> <i class="flaticon-play-button-arrowhead"></i></span>
+                                                <span class="sm-none">Watch Video</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hero-img-wrap">
+                                        <img src="assets/img/hero/hero-shape-13.png" alt="Image" class="hero-shape-five bounce">
+                                        <img src="assets/img/hero/hero-shape-12.png" alt="Image" class="hero-shape-six moveHorizontal">
+                                        <img src="assets/img/hero/hero-slide-3.png" alt="Image" class="hero-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero Section End -->
+
+            <!-- Service Charge calculator Start -->
+            <!-- Service Charge calculator End -->
+
+            <!-- Why Choose Us Section Start -->
+            <section class="why-choose-wrap style1 pb-100 bg-bunting">
+                <div class="container">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="wh-img-wrap">
+                                <img src="assets/img/why-choose-us/wh-img-1.png" alt="Image">
+                                <img class="wh-shape-one bounce" src="assets/img/why-choose-us/wh-shape-1.png" alt="Image">
+                                <img class="wh-shape-two animationFramesTwo" src="assets/img/why-choose-us/wh-shape-2.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="wh-content">
+                                <div class="content-title style1">
+                                    <span>Pourquoi choisir notre cabinet d'optométrie ?</span>
+                                    <h2>Bénéficiez d'un suivi de qualité pour votre santé visuelle</h2>
+                                    <p>Avec plus de 20 ans d'expérience, notre équipe vous garantit des examens de vue de qualité et un suivi optimal de votre santé visuelle. Nous mettons à votre disposition les dernières technologies et notre expertise pour dépister les troubles visuels et vous proposer les solutions adaptées.</p>
+                                </div>
+                                <div class="feature-item-wrap">
+                                    <div class="feature-item">
+                                        <span class="feature-icon">
+                                            <i class="flaticon-graph"></i>
+                                        </span>
+                                        <div class="feature-text">
+                                            <h3>Un diagnostic approfondi</h3>
+                                            <p>Grâce à nos équipements de pointe, nous réalisons un bilan visuel complet pour déterminer vos besoins.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">
+                                           <i class="flaticon-loan-1"></i>
+                                        </span>
+                                        <div class="feature-text">
+                                            <h3>Des optométristes qualifiés</h3>
+                                            <p>Nos optométristes diplômés assurent des examens de qualité et vous conseillent au mieux.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">
+                                           <i class="flaticon-computer"></i>
+                                        </span>
+                                        <div class="feature-text">
+                                            <h3>Le suivi de votre vision</h3>
+                                            <p>Nous assurons un suivi régulier pour préserver durablement votre santé visuelle.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Why Choose Us Section End -->
+
+            <!-- Counter Section start -->
+            <div class="counter-wrap">
+                <div class="container">
+                    <div class="counter-card-wrap">
+                        <div class="counter-card">
+                            <div class="counter-text">
+                                <div class="counter-num">
+                                    <span class="odometer" data-count="20"></span>
+                                </div>
+                                <p>Années d'expérience</p>
+                            </div>
+                        </div>
+                        <div class="counter-card">
+                            <div class="counter-text">
+                                <div class="counter-num">
+                                    <span class="odometer" data-count="+1000"></span>
+                                </div>
+                                <p>Patients satisfaits</p>
+                            </div>
+                        </div>
+                        <div class="counter-card">
+                            <div class="counter-text">
+                                <div class="counter-num">
+                                    <span class="odometer" data-count="3"></span>
+                                </div>
+                                <p>Optométristes diplômés</p>
+                            </div>
+                        </div>
+                        <div class="counter-card">
+                            <div class="counter-text">
+                                <div class="counter-num">
+                                    <span class="odometer" data-count="1000"></span>
+                                </div>
+                                <p>Examens réalisés</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter Section End -->
+
+            <!-- Service Section Start -->
+            <section class="service-wrap style3 ptb-100 bg-rock">
+                <div class="container">
+                    <img src="assets/img/service-shape-1.png" alt="Image" class="service-shape-one">
+                    <img src="assets/img/service-shape-2.png" alt="Image" class="service-shape-two">
+                    <div class="section-title style1 text-center mb-40">
+                        <span>Nos services d'optométrie</span>
+                        <h2 class="text-white">Prenez soin de votre vue</h2>
+                    </div>
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-md-6">
+                            <div class="service-card style3">
+                                <span class="service-icon">
+                                    <i class="flaticon-payment-method"></i>
+                                </span>
+                                <div class="service-info">
+                                    <h3><a href="service-details.html">Examen de vue</a></h3>
+                                    <p>Consultation complète avec différents tests pour analyser votre vision.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card style3">
+                                <span class="service-icon">
+                                    <i class="flaticon-computer"></i>
+                                </span>
+                                <div class="service-info">
+                                    <h3><a href="service-details.html">Lentilles de contact</a></h3>
+                                    <p>Pose et suivi de lentilles de contact, solutions adaptées à vos besoins.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card style3">
+                                <span class="service-icon">
+                                    <i class="flaticon-credit-card"></i>
+                                </span>
+                                <div class="service-info">
+                                    <h3><a href="service-details.html">Verres correcteurs</a></h3>
+                                    <p>Conseil personnalisé pour des verres adaptés à votre vue.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card style3">
+                                <span class="service-icon">
+                                    <i class="flaticon-loan-1"></i>
+                                </span>
+                                <div class="service-info">
+                                    <h3><a href="service-details.html">Basse vision</a></h3>
+                                    <p>Accompagnement et solutions optiques pour malvoyants.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-20">
+                        <a href="service-one.html" class="btn style1">Découvrir nos services</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Service Section End -->
+
+            <!-- Online Shopping Section Start -->
+            <section class="shopping-wrap ptb-100">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-12 order-lg-1 order-2">
+                            <div class="shopping-content">
+                                <img src="assets/img/shopping/shopping-shape-1.png" alt="Image" class="shopping-shape-one moveHorizontal">
+                                <img src="assets/img/shopping/shopping-shape-2.png" alt="Image" class="shopping-shape-two bounce">
+                                <div class="content-title style1 ">
+                                    <span>L'optométrie à votre écoute</span>
+                                    <h2>Des solutions personnalisées pour votre confort visuel</h2>
+                                    <p>Grâce à notre expertise en optométrie, nous vous proposons des examens de vue sur-mesure et des solutions adaptées à vos besoins en verres correcteurs et lentilles de contact.</p>
+                                </div>
+                                <ul class="content-feature-list list-style">
+                                    <li><i class="ri-check-double-line"></i>Des verres anti-reflet et anti-rayures</li>
+                                    <li><i class="ri-check-double-line"></i>Le choix de vos montures parmi les plus grandes marques</li>
+                                    <li><i class="ri-check-double-line"></i>Des lentilles journalières, mensuelles ou annuelles</li>
+                                </ul>
+                                <a href="register.html" class="btn style1">Prendre rendez-vous</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 order-lg-2 order-1">
+                            <div class="shopping-img-wrap">
+                                <img src="assets/img/shopping/shopping-1.png" alt="Image">
+                                <img src="assets/img/shopping/shopping-shape-3.png" alt="Image" class="shopping-shape-three">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Online Shopping Section End -->
+
+            <!-- Testimonial Section Start -->
+            <section class="testimonial-wrap ptb-100  bg-albastor">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                            <div class="section-title style1 text-center mb-40">
+                                <span>Témoignages</span>
+                                <h2>Ce que disent nos patients</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider-three owl-carousel">
+                        <div class="testimonial-card style3">
+                            <span class="quote-icon">
+                                <i class="flaticon-quotation-mark"></i>
+                            </span>
+                            <p class="client-quote">Je recommande ce cabinet pour la qualité de l'accueil et le professionnalisme des optométristes. J'ai bénéficié d'un examen de vue très complet.</p>
+                            <div class="testimonial-card-thumb">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-7.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h4>Adrien</h4>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card style3">
+                            <span class="quote-icon">
+                                <i class="flaticon-quotation-mark"></i>
+                            </span>
+                            <p class="client-quote">L'équipe est à l'écoute et très professionnelle. Ils m'ont aidé à choisir des verres parfaitement adaptés à ma correction.</p>
+                            <div class="testimonial-card-thumb">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-1.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h4>Roosvelt</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card style3">
+                            <span class="quote-icon">
+                                <i class="flaticon-quotation-mark"></i>
+                            </span>
+                            <p class="client-quote">Des conseils avisés pour mes lentilles de contact qui me posent problème. Je sais que je peux compter sur eux.</p>
+                            <div class="testimonial-card-thumb">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-2.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h4>Joss</h4>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card style3">
+                            <span class="quote-icon">
+                                <i class="flaticon-quotation-mark"></i>
+                            </span>
+                            <p class="client-quote">Très satisfaite de ma récente consultation ! Les optométristes prennent le temps d'écouter vos besoins et vous guident vers les meilleures solutions.</p>
+                            <div class="testimonial-card-thumb">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-3.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h4>Tania</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card style3">
+                            <span class="quote-icon">
+                                <i class="flaticon-quotation-mark"></i>
+                            </span>
+                            <p class="client-quote">J'ai eu un excellent conseil pour mes nouvelles lunettes qui sont parfaitement adaptées à ma vue. Je vois nettement mieux grâce à eux.</p>
+                            <div class="testimonial-card-thumb">
+                                <div class="client-info-wrap">
+                                    <div class="client-img">
+                                        <img src="assets/img/testimonials/client-4.jpg" alt="Image">
+                                    </div>
+                                    <div class="client-info">
+                                        <h4>Deranot</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <!-- Testimonial Section End -->
+
+            <!-- App Section Start -->
+            <section class="app-wrap  ptb-100 bg-rock">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-8">
+                            <div class="app-content sm-center">
+                                <div class="content-title style2">
+                                    <h2>Suivez-nous pour tout savoir sur la santé visuelle</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 text-md-end sm-center">
+                            <div class="app-btn">
+                                <a href="#" style="color: #4267B2"><i class="fab fa-facebook-f"></i></a>
+
+                                <a href="#" style="color: #1DA1F2"><i class="fab fa-twitter"></i></a>
+
+                                <a href="#" style="color: #C13584"><i class="fab fa-instagram"></i></a>
+                                <a href="https://play.google.com/store/apps">
+                                    <i class="fab fa-google-play" style="color: #4285F4"></i> 
+                                  </a>
+                                  <a href="https://www.apple.com/app-store/">
+                                    <i class="fab fa-apple" style="color: #b6acac"></i>
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- App Section End -->
+
+            <!-- Goal Section Start -->
+            <section class="goal-wrap ptb-100">
+                <div class="container">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="goal-img-wrap">
+                                <img src="assets/img/goal/goal-shape-1.png" alt="Image" class="goal-shape-three bounce">
+                                <img src="assets/img/goal/goal-shape-2.png" alt="Image" class="goal-shape-one">
+                                <img src="assets/img/goal/goal-shape-3.png" alt="Image" class="goal-shape-two">
+                                <img src="assets/img/goal/goal-1.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="goal-content">
+                                <div class="content-title style1">
+                                    <span>Objectifs</span>
+                                    <h2>Nos objectifs pour votre santé visuelle</h2>
+                                    <p>Chez VisionPlus, nous mettons tout en œuvre pour vous fournir le meilleur accompagnement qui soit concernant vos yeux. Découvrez nos engagements.</p>
+                                </div>
+                                <ul class="content-feature-list style1 list-style">
+                                    <li><span><i class="flaticon-tick"></i></span>Un diagnostic approfondi de votre vision</li>
+                                    <li><span><i class="flaticon-tick"></i></span>Des solutions adaptées à vos besoins</li>
+                                    <li><span><i class="flaticon-tick"></i></span>Un suivi dans la durée pour préserver votre vue</li>
+                                    <li><span><i class="flaticon-tick"></i></span>Les meilleurs équipements pour des examens de pointe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Goal Section End -->
+
+            <!-- Blog Section Start -->
+            <section class="blog-wrap pt-100 pb-75 bg-albastor">
+                <div class="container">
+                    <div class="section-title style1 text-center mb-40">
+                        <span>Latest Insights From Raxa</span>
+                        <h2>Conseils et actualités</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="blog-card style1">
+                                <div class="blog-img">
+                                    <img src="assets/img/blog/blog-1.jpg" alt="Image">
+                                </div>
+                                <div class="blog-info">
+                                    
+                                    <ul class="blog-metainfo  list-style">
+                                        <li><i class="flaticon-user"></i> <a href="posts-by-author.html">Bien choisir ses verres progressifs</a></li>
+                                        <li><i class="flaticon-calendar"></i><time id="date1" datetime="2023-01-10"></time></li>  
+                                    </ul>
+                                    <h3><a href="posts-by-author.html">Quels sont les éléments à prendre en compte pour bien choisir ses verres progressifs ? Tour d'horizon des... </a></h3>
+                                    <a href="posts-by-author.html" class="link style1">Lire la suite
+                                        <i class="flaticon-right-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6" >
+                            <div class="blog-card style1">
+                                <div class="blog-img">
+                                    <img src="assets/img/blog/blog-2.jpg" alt="Image">
+                                </div>
+                                <div class="blog-info">
+                                    <ul class="blog-metainfo  list-style">
+                                        <li><i class="flaticon-user"></i> <a href="posts-by-author.html">Que faire en cas de perte de lentilles ? </a></li>
+                                        <li><i class="flaticon-calendar"></i><time id="date2" datetime="2023-01-12"></time></li>  
+                                    </ul>
+                                    <h3><a href="posts-by-author.html">Vous avez égaré vos lentilles de contact ? Découvrez quelles sont les solutions s'offrant à vous dans cette situation...</a></h3>
+                                    <a href="posts-by-author.html" class="link style1">Lire la suite
+                                        <i class="flaticon-right-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6" >
+                            <div class="blog-card style1">
+                                <div class="blog-img">
+                                    <img src="assets/img/blog/blog-3.jpg" alt="Image">
+                                </div>
+                                <div class="blog-info">
+                                    <ul class="blog-metainfo  list-style">
+                                        <li><i class="flaticon-user"></i><a href="posts-by-author.html">Astigmatisme : quand consulter ?</a></li>
+                                        <li><i class="flaticon-calendar"></i><time id="date3" datetime="2023-01-13"></time></li>
+                                    </ul>
+                               <h3><a href="posts-by-author.html">L'astigmatisme est un trouble de la vision fréquent. À quels signes reconnaît-on ce problème et quand consulter un spécialiste ?...</a></h3>
+
+                               <a href="posts-by-author.html" class="link style1">Lire la suite">
+                                        <i class="flaticon-right-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script>
+                function updateDate() {
+                  const publishedDate = document.querySelector('time');
+            
+                  const options = {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  };
+                  const date1 = document.getElementById('date1');
+                  const date2 = document.getElementById('date2'); 
+                  const date3 = document.getElementById('date3');
+            
+                  date1.textContent = new Date('2023-01-10').toLocaleDateString('fr-FR', options);
+
+                  date2.textContent = new Date('2023-01-12').toLocaleDateString('fr-FR', options);
+
+                  date3.textContent = new Date('2023-01-13').toLocaleDateString('fr-FR', options);
+                }
+            
+                updateDate();
+              </script>
+            <!-- Blog Section End -->
+
+            <!-- Footer Section Start -->
+            <footer class="footer-wrap bg-rock">
+                 <div class="container">
+                    <img src="assets/img/footer-shape-1.png" alt="Image" class="footer-shape-one">
+                    <img src="assets/img/footer-shape-2.png" alt="Image" class="footer-shape-two">
+                    <div class="row pt-100 pb-75">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="assets/img/logo-white.png" alt="Image">
+                                </a>
+                                <p class="comp-desc">
+                                    Notre cabinet d'optométrie, situé à [ville], dispose de 3 salles équipées des dernières technologies pour réaliser vos examens de vue. Nos 3 optométristes expérimentés et nos 2 assistantes qualifiées vous assurent un accueil personnalisé et des bilans visuels complets (réfraction, acuité visuelle, vision des couleurs...). Nous proposons également un large choix de verres correcteurs et lentilles de contact parmi les plus grandes marques. Grâce à notre expertise et notre matériel à la pointe, nous garantissons à chacun de nos patients un suivi sur-mesure pour préserver durablement leur santé visuelle. Prenez RDV dès maintenant pour une consultation !
+                                </p>
+                                <div class="social-link">
+                                    <ul class="social-profile list-style style1">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://linkedin.com">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com">
+                                                <i class="ri-pinterest-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Notre Cabinet</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="error-404.html">
+                                            <i class="flaticon-next"></i>
+                                            À propos de notre cabinet
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Nos Services
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">
+                                            <i class="flaticon-next"></i>
+                                            Notre Team
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="contact.html">
+                                            <i class="flaticon-next"></i>
+                                            Nous contacter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">
+                                            <i class="flaticon-next"></i>
+                                            Politique de confidentialité
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Nous offrons</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Examen de vue
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Lentilles de contact
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Basse vision
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service-one.html">
+                                            <i class="flaticon-next"></i>
+                                            Urgence
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Restons en contact</h3>
+                                <p class="newsletter-text">Inscrivez-vous pour recevoir nos conseils sur la santé visuelle.</p>
+                                <form action="#" class="newsletter-form">
+                                    <input type="email" placeholder="Your Email">
+                                    <button type="button">S'inscrire</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-text">
+                    <p> <i class="ri-copyright-line"></i><script>document.write(new Date().getFullYear())</script> © VisionFirst. Tous droits réservés <a href="https://etsltd.com/" target="_blank">ETS NLIMITED</a></p>
+                </div>
+            </footer>
+            <!-- Footer Section End -->
+
+        </div>
+        <!-- Page Wrapper End -->
+        
+        <!-- Back-to-top button Start -->
+         <a href="javascript:void(0)" class="back-to-top bounce"><i class="ri-arrow-up-s-line"></i></a>
+        <!-- Back-to-top button End -->
+        
+
+        <!-- Link of JS files -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/form-validator.min.js"></script>
+        <script src="assets/js/contact-form-script.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/odometer.min.js"></script>
+        <script src="assets/js/fancybox.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/tweenmax.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

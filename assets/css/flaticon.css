@@ -270,7 +270,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-email-3:before {
     content: "\f154";
 }
-.flaticon-computer:before {
+.flaticon-computer :before {
     content: "\f155";
 }
 .flaticon-quote-1:before {
